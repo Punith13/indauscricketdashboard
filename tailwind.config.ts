@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      clipPath: {
+        triangle: "polygon(0 0, 100% 50%, 0 100%)",
+      },
     },
   },
   plugins: [],
