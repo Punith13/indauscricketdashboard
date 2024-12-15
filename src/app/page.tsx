@@ -6,10 +6,6 @@ import AusLogo from "../../static/images/Cricket_Australia.png";
 import IndiaLogo from "../../static/images/india_cricket_logo.jpeg";
 import { useForm } from "react-hook-form";
 
-const AusLogoClass =
-  "w-36 h-36 rounded-full overflow-hidden flex justify-center ring-2 ring-green-500 shadow-[0_0_10px_#00ff00]";
-const IndLogoClass = "";
-
 export default function Home() {
   const { register, watch } = useForm({
     defaultValues: {
